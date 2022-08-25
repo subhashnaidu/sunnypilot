@@ -672,7 +672,7 @@ EVENTS: Dict[int, Dict[str, Union[Alert, AlertCallbackType]]] = {
   },
 
   EventName.noGps: {
-    ET.PERMANENT: no_gps_alert,
+    # Do Nothing!
   },
 
   EventName.soundsUnavailable: {
